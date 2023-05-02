@@ -31,5 +31,11 @@ sudo nano /etc/pam.d/common-password
 - append `minlen=<desiredNumber>`
 - save file
 NOTE: did not work....
+UPDATE: Solved with 
+```
+sudo pam-auth-update --force
+```
+Used to force a change to the password complexity requirements. 
+
 
 
