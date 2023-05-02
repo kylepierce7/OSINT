@@ -38,5 +38,22 @@ sudo pam-auth-update --force
 Used to force a change to the password complexity requirements. 
 
 20230502 Completed page 99 of the build. Next install Tools-Basic
+ERROR in installing the firefox build steps 11-15 
+```
+cannot create extraction directory
+```
+
+Changed user read/write settings:
+```
+cd ~
+chmod u+w .
+```
+
+Ran `curl` again and still received "cannot create extraction directory: /home/osint/.mozilla/firefox"
+```
+chmod 777 ~
+ls -all
+```
+Ran `unzip` again and still received "cannot create extraction directory"
 
 
