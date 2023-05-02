@@ -28,7 +28,7 @@ sudo ./VBoxLinuxAdditions.run
 sudo nano /etc/pam.d/common-password
 ```
 - find line with "password success= .....pam_unix. ...." 
-- `append minln=<desiredNumber>`
+- append `minlen=<desiredNumber>`
 - save file
 NOTE: did not work....
 
