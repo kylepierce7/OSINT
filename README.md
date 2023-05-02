@@ -37,5 +37,6 @@ sudo pam-auth-update --force
 ```
 Used to force a change to the password complexity requirements. 
 
+20230502 Completed page 99 of the build. Next install Tools-Basic
 
 
